@@ -63,7 +63,7 @@ header{
     font-size: 0.9rem;
 }
 
-/*=========MEDIA QUERIS(MEDIUM DEVICES)==========*/
+/*=========MEDIA QUERIES(MEDIUM DEVICES)==========*/
 
 @media screen and (max-width:1024px) {
     header{
@@ -72,7 +72,7 @@ header{
 
 }
 
-/*=========MEDIA QUERIS(SMALL DEVICES)==========*/
+/*=========MEDIA QUERIES(SMALL DEVICES)==========*/
 
 @media screen and (max-width:600px) {
     header{
