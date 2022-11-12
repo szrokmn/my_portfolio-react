@@ -14,7 +14,38 @@ const Testimonials = () => {
       <div className="container testimonials__container">
         <article className="testimonial">
           <div className="client__avatar">
-            <img src="" alt="" />
+            <img src={AVTR1} alt="avtr1" />
+            <h5 className="client__name">Ernest Achiever</h5>
+            <small className="client__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
+            </small>
+          </div>
+        </article>
+        <article className="testimonial">
+          <div className="client__avatar">
+            <img src={AVTR2} alt="avtr2" />
+            <h5 className="client__name">Ernest Achiever</h5>
+            <small className="client__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
+            </small>
+          </div>
+        </article>
+        <article className="testimonial">
+          <div className="client__avatar">
+            <img src={AVTR3} alt="avtr3" />
+            <h5 className="client__name">Ernest Achiever</h5>
+            <small className="client__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
+            </small>
+          </div>
+        </article>
+        <article className="testimonial">
+          <div className="client__avatar">
+            <img src={AVTR4} alt="avtr4" />
+            <h5 className="client__name">Ernest Achiever</h5>
+            <small className="client__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
+            </small>
           </div>
         </article>
       </div>
