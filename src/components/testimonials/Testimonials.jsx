@@ -1,13 +1,13 @@
-import React from 'react'
-import "./Testimonials.css"
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import React from "react";
+import "./Testimonials.css";
+import AVTR1 from "../../assets/avatar1.jpg";
+import AVTR2 from "../../assets/avatar2.jpg";
+import AVTR3 from "../../assets/avatar3.jpg";
+import AVTR4 from "../../assets/avatar4.jpg";
 
 const Testimonials = () => {
   return (
-    <section id='testimonials'>
+    <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
 
@@ -15,42 +15,55 @@ const Testimonials = () => {
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="avtr1" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
-            </small>
-          </div>
+            </div>
+              <h5 className="client__name">Ernest Achiever</h5>
+              <small className="client__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                voluptate aliquam maiores vitae sunt itaque earum ipsa non
+                dolorum blanditiis. Quae sapiente impedit deleniti, earum
+                accusantium obcaecati veritatis doloribus perferendis.
+              </small>         
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR2} alt="avtr2" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
-            </small>
-          </div>
+            </div>
+              <h5 className="client__name">Ernest Achiever</h5>
+              <small className="client__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                voluptate aliquam maiores vitae sunt itaque earum ipsa non
+                dolorum blanditiis. Quae sapiente impedit deleniti, earum
+                accusantium obcaecati veritatis doloribus perferendis.
+              </small>
+           
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR3} alt="avtr3" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
-            </small>
-          </div>
+            </div>
+              <h5 className="client__name">Ernest Achiever</h5>
+              <small className="client__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                voluptate aliquam maiores vitae sunt itaque earum ipsa non
+                dolorum blanditiis. Quae sapiente impedit deleniti, earum
+                accusantium obcaecati veritatis doloribus perferendis.
+              </small>          
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR4} alt="avtr4" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate aliquam maiores vitae sunt itaque earum ipsa non dolorum blanditiis. Quae sapiente impedit deleniti, earum accusantium obcaecati veritatis doloribus perferendis.
-            </small>
-          </div>
+            </div>
+              <h5 className="client__name">Ernest Achiever</h5>
+              <small className="client__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                voluptate aliquam maiores vitae sunt itaque earum ipsa non
+                dolorum blanditiis. Quae sapiente impedit deleniti, earum
+                accusantium obcaecati veritatis doloribus perferendis.
+              </small>            
         </article>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;
