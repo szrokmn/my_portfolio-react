@@ -70,7 +70,7 @@ const sendEmail = (e) => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button>Send Message</button>
+          <button className="btn btn-primary">Send Message</button>
         </form>
       </div>
     </section>
